@@ -349,7 +349,11 @@ a,ul,li {
 
     .center-box img {
         position: absolute;
-        margin-bottom: 220;
+        top: -20;
+    }
+
+    .experiencia-box {
+        position: relative;
     }
 
     .center-box {
@@ -390,6 +394,7 @@ a,ul,li {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        position: relative;
     }
 
     .logo-text-andromeda img {
@@ -973,7 +978,11 @@ a,ul,li {
     
         .center-box img {
             position: absolute;
-            margin-bottom: 220;
+            top: -20;
+        }
+    
+        .experiencia-box {
+            position: relative;
         }
     
         .center-box {
@@ -1670,7 +1679,11 @@ a,ul,li {
     
         .center-box img {
             position: absolute;
-            margin-bottom: 205;
+            top: -20;
+        }
+    
+        .experiencia-box {
+            position: relative;
         }
     
         .center-box {
@@ -1712,12 +1725,13 @@ a,ul,li {
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            position: relative;
         }
     
         .logo-text-andromeda img {
             position: absolute;
             width: 400px;
-            margin-top: 30;
+            margin-top: 35;
             opacity: .85;
         }
     
